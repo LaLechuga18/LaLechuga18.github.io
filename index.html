@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SEBAS // DEV</title>
+<link rel="stylesheet" href="style.css">
+<link rel="shortcut icon" href="icon.png" type="image/x-icon">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<style>
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-logo">SGC.DEV</div>
+  <ul class="nav-links">
+    <li><a href="#about">ABOUT</a></li>
+    <li><a href="#projects">PROJECTS</a></li>
+    <li><a href="#certs">CERTS</a></li>
+    <li><a href="#contact">CONTACT</a></li>
+  </ul>
+</nav>
+ 
+<!-- HERO -->
+<section id="hero">
+  <div class="px-corner px-tl"></div>
+  <div class="px-corner px-br"></div>
+  <p class="hero-tag">▶ PLAYER ONE — READY</p>
+  <h1>SEBASTIAN<br>GARNICA</h1>
+  <p class="hero-sub">
+    <span>Software Developer</span> &amp; CS Student.<br>
+    Building Python tools, automating things, and exploring ML.
+    Student @ <em>CUCEI · UdG</em>. Expected graduation: Jan 2027.
+  </p>
+  <div class="hero-btns">
+    <a href="#projects" class="btn btn-primary"> VIEW PROJECTS</a>
+    <a href="#contact" class="btn btn-secondary">
+    <i class="fa-solid fa-envelope"></i> CONTACT
+</a>
+  </div>
+</section>
+ 
+<!-- ABOUT -->
+<section id="about">
+  <div class="section-header reveal">
+    <span class="section-num">01</span>
+    <h2 class="section-title">ABOUT.EXE</h2>
+    <div class="section-line"></div>
+  </div>
+  <div class="about-grid">
+    <div class="about-text reveal">
+      <p>
+        CS student at <strong>Universidad de Guadalajara (CUCEI)</strong>,
+        focused on <strong>Python development</strong>, automation, and data processing.
+        GPA: <strong>89/100</strong>.
+      </p>
+      <br>
+      <p>
+        I build CLI tools, desktop apps, and data pipelines —
+        end-to-end, from raw data to working software.
+        Research assistant experience in <em>sensor data processing</em> for industrial systems.
+      </p>
+      <br>
+      <p>
+        Always looking for the next interesting problem to solve.
+      </p>
+      <br>
+      <p style="color:#555;">Status: open to internships <span class="cursor"></span></p>
+    </div>
+    <div class="skills-grid reveal">
+      <div class="skill-chip dev">Python</div>
+      <div class="skill-chip dev">SQL / MySQL</div>
+      <div class="skill-chip dev">Tkinter</div>
+      <div class="skill-chip dev">C / C++</div>
+      <div class="skill-chip ml">Data Processing</div>
+      <div class="skill-chip ml">Automation</div>
+      <div class="skill-chip sec">Linux (Fedora)</div>
+      <div class="skill-chip sec">CLI Tools</div>
+      <div class="skill-chip eng">Git / GitHub</div>
+      <div class="skill-chip eng">PostgreSQL</div>
+      <div class="skill-chip eng">English B1</div>
+      <div class="skill-chip eng">Spanish Native</div>
+    </div>
+  </div>
+</section>
+ 
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="section-header reveal">
+    <span class="section-num">02</span>
+    <h2 class="section-title">PROJECTS</h2>
+    <div class="section-line"></div>
+  </div>
+ 
+  <div class="projects-grid">
+ 
+    <div class="card reveal" data-accent="pink">
+      <p class="card-tag">research · data processing</p>
+      <h3 class="card-title">SOFT SENSORS<br>FOR FOOD DEHYDRATORS</h3>
+      <p class="card-desc">
+        Research assistant role processing real industrial sensor data —
+        preprocessing, validation, consistency checks, and anomaly detection
+        via automated Python scripts.
+      </p>
+      <div class="card-stack">
+        <span class="tag">Python</span>
+        <span class="tag">Data Processing</span>
+        <span class="tag">Automation</span>
+      </div>
+    </div>
+ 
+    <div class="card reveal" data-accent="cyan">
+      <p class="card-tag">systems · python · cli</p>
+      <h3 class="card-title">OS PROCESS<br>SCHEDULER SIM</h3>
+      <p class="card-desc">
+        Simulated OS process scheduling with execution states and queue management.
+        Real-time monitoring of system clock and process lifecycle through a CLI interface.
+      </p>
+      <div class="card-stack">
+        <span class="tag">Python</span>
+        <span class="tag">CLI</span>
+        <span class="tag">OS Concepts</span>
+      </div>
+      <a href="https://github.com/LaLechuga18/Procesamiento_Lotes" 
+        target="_blank" 
+        class="btn btn-secondary" 
+        style="margin-top:16px; font-size:8px; padding:8px 14px;">
+        <i class="fa-brands fa-github"></i> VIEW REPO
+      </a>
+    </div>
+ 
+    <div class="card reveal" data-accent="yellow">
+      <p class="card-tag">data · python · mysql</p>
+      <h3 class="card-title">DATA PROCESSING<br>& AUTOMATION</h3>
+      <p class="card-desc">
+        Python workflows to extract, clean, and process transactional data from MySQL.
+        Automated validation with alert-style detection for unusual records and patterns.
+      </p>
+      <div class="card-stack">
+        <span class="tag">Python</span>
+        <span class="tag">MySQL</span>
+        <span class="tag">ETL</span>
+      </div>
+      <a href="https://github.com/VicsarigaDev/SOELSA" 
+        target="_blank" 
+        class="btn btn-secondary" 
+        style="margin-top:16px; font-size:8px; padding:8px 14px;">
+        <i class="fa-brands fa-github"></i> VIEW REPO
+      </a>
+    </div>
+ 
+    <div class="card reveal" data-accent="orange">
+      <p class="card-tag">desktop app · tooling</p>
+      <h3 class="card-title">FILE ENCODING<br>& COMPRESSION</h3>
+      <p class="card-desc">
+        Desktop utility for encoding and compressing text files with Tkinter GUI.
+        Manages file I/O, integrity validation after decompression, and low-level
+        data representation.
+      </p>
+      <div class="card-stack">
+        <span class="tag">Python</span>
+        <span class="tag">Tkinter</span>
+        <span class="tag">File I/O</span>
+      </div>
+      <a href="https://github.com/LaLechuga18/Codificacion-de-Huffman" 
+        target="_blank" 
+        class="btn btn-secondary" 
+        style="margin-top:16px; font-size:8px; padding:8px 14px;">
+        <i class="fa-brands fa-github"></i> VIEW REPO
+      </a>
+    </div>
+ 
+    <div class="card reveal" data-accent="purple">
+      <p class="card-tag">visualization · gui</p>
+      <h3 class="card-title">DECISION PATH<br>STATE SIM GUI</h3>
+      <p class="card-desc">
+        Graphical interface to visualize decision paths and execution states.
+        Step-by-step execution visualization with route exploration under
+        different conditions.
+      </p>
+      <div class="card-stack">
+        <span class="tag">Python</span>
+        <span class="tag">Tkinter</span>
+        <span class="tag">Simulation</span>
+      </div>
+      <a href="https://github.com/LaLechuga18/Laberinto" 
+        target="_blank" 
+        class="btn btn-secondary" 
+        style="margin-top:16px; font-size:8px; padding:8px 14px;">
+        <i class="fa-brands fa-github"></i> VIEW REPO
+      </a>
+    </div>
+ 
+  </div>
+</section>
+ 
+<!-- CERTIFICATIONS -->
+<section id="certs">
+  <div class="section-header reveal">
+    <span class="section-num">03</span>
+    <h2 class="section-title">CERTIFICATIONS</h2>
+    <div class="section-line"></div>
+  </div>
+ 
+  <div class="certs-grid">
+ 
+    <div class="cert-card reveal">
+      <div class="cert-issuer ibm">IBM</div>
+      <h3 class="cert-title">Hands-on Introduction to Linux Commands and Shell Scripting</h3>
+      <p class="cert-meta">IBM - Coursera - 2026 </p>
+      <a href="https://www.coursera.org/account/accomplishments/verify/346KCQM3TM37" target="_blank" class="cert-btn">▶ VERIFY</a>
+    </div>
+ 
+    <div class="cert-card reveal">
+      <div class="cert-issuer ibm">IBM</div>
+      <h3 class="cert-title">Introduction to DevOps</h3>
+      <p class="cert-meta">IBM - Coursera - 2026 </p>
+      <a href="https://www.coursera.org/account/accomplishments/verify/UJVJ4BI6JGEG" target="_blank" class="cert-btn">▶ VERIFY</a>
+    </div>
+
+    <div class="cert-card reveal">
+      <div class="cert-issuer cisco">CISCO</div>
+      <h3 class="cert-title">Introduction to Cybersecurity</h3>
+      <p class="cert-meta">Cisco - Credly - 2026</p>
+      <a href="https://www.credly.com/badges/9868d53b-060d-442d-9a5e-8a765ed1b555" target="_blank" class="cert-btn">▶ VERIFY</a>
+    </div>
+
+    <div class="cert-card reveal">
+      <div class="cert-issuer cisco">CISCO</div>
+      <h3 class="cert-title">CCNA: Introduction to Networks</h3>
+      <p class="cert-meta">CISCO - Credly - 2025</p>
+      <a href="https://www.credly.com/badges/73b1f5f2-87f4-407c-9f31-5b7a0ecd853a" target="_blank" class="cert-btn">▶ VERIFY</a>
+    </div>
+ 
+  </div>
+</section>
+ 
+<!-- CONTACT -->
+<section id="contact">
+  <div class="contact-box reveal">
+    <h2 class="contact-title">LET'S TALK</h2>
+    <p class="contact-sub">
+      Open to internships, collaborations, and interesting problems.<br>
+      Reach out — I don't bite.
+    </p>
+    <div class="social-links">
+      <a href="/cdn-cgi/l/email-protection#027167606371766b636c616370606368636e363242656f636b6e2c616d6f" class="btn btn-primary">
+        <i class="fa-solid fa-envelope"></i> EMAIL
+      </a>
+      <a href="https://linkedin.com/in/angel-sebastian-garnica-carbajal" target="_blank" class="btn btn-secondary">
+        <i class="fa-brands fa-linkedin"></i> LINKEDIN
+      </a>
+      <a href="https://github.com/LaLechuga18" target="_blank" class="btn btn-secondary">
+        <i class="fa-brands fa-github"></i> GITHUB
+      </a>
+    </div>
+  </div>
+</section>
+ 
+<!-- FOOTER -->
+<footer>
+  angel sebastian garnica carbajal
+</footer>
+ 
+<script src="script.js">
+</script>
+</body>
+</html>
